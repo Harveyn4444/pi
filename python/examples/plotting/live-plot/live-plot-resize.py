@@ -41,7 +41,7 @@ try:
             line.set_xdata(x_data)
             line.set_ydata(y_data)
 
-            ax.set_xticks(list(x_data)[::50])
+            ax.set_xticks(list(x_data)[::100])
             
             # Rescale the axes if necessary
             ax.relim()
